@@ -6,7 +6,7 @@ const Intro = () => {
         <>
             <div className={styles.intro}>
                 <Image
-                    src="/img/quiet-tuesday-logo.svg"
+                    src="./img/quiet-tuesday-logo.svg"
                     alt="quiet tuesday logo"
                     width={300}
                     height={100}
