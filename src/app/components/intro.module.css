@@ -1,0 +1,110 @@
+.intro {
+
+}
+
+.intro h1 {
+    padding:12px 0 0 0;
+    color: #BFFFD1;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.24px;
+}
+
+
+
+.divider {
+    width: 100%;
+    margin: 20px auto;
+    border: none;
+    border-top: .5px solid #BFFFD1; /* Adjust color as needed */
+}
+
+.header2 {
+    color: #6E8F77;
+    font-size: 20px;
+    padding: 0 0 12px 0 ;
+}
+
+.paragraph {
+    color: #BFFFD1;
+    font-size: 20px;
+    letter-spacing: -0.16px;
+    text-transform: lowercase;
+}
+
+.paragraph a {
+    text-decoration-line: underline;   
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.serviceBox {
+    font-size:18px;
+    color: #BFFFD1;
+    background-color: #111613; /* Light grey background, adjust as needed */
+    padding: 6px 8px; /* 6px vertical padding, 8px horizontal padding */
+    justify-content: center;
+    display: inline-flex;
+}
+
+.packageRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+    padding: 4px 0 0 0;
+    color: #BFFFD1;
+}
+.packageRow a {
+    text-decoration: underline;
+}
+
+.cta {
+    width: 100%;
+    color: #BFFFD1;
+    background-color: #111613; /* Light grey background, adjust as needed */
+    padding: 12px 8px; /* 6px vertical padding, 8px horizontal padding */
+    justify-content: center;
+    display: inline-flex;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .intro h1 br {
+        display:none;
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .intro h1 {
+        font-size: 32px;
+    }
+    .intro h1 br {
+        display:none;
+    }
+    
+}
+
+/* Mobile styles */
+@media screen and (max-width: 428px) {
+    .intro h1 {
+        font-size: 34px;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+

@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.imageWrapper {
+    flex-grow: 1;
+    flex-basis: calc(33.333% - 16px);
+}
+
+.imageWrapper img,
+.imageWrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 428px) {
+    .imageWrapper {
+        flex: none;
+        flex-basis: 100%;
+    }
+}
