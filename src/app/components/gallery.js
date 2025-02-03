@@ -61,10 +61,13 @@ const Gallery = () => {
                             loop
                             muted
                             playsInline
+                            preload="metadata"
                             style={{ objectFit: 'cover' }}
+                            playsinline="true"
+                            webkit-playsinline="true"
                         >
-                            <source src="img/homepage/sundae_1.webm" type="video/webm" />
                             <source src="img/homepage/sundae_1.mp4" type="video/mp4" />
+                            <source src="img/homepage/sundae_1.webm" type="video/webm" />
                         </video>
                     </div>
                     <div className={styles.mediaWrapper}>
@@ -88,10 +91,13 @@ const Gallery = () => {
                             loop
                             muted
                             playsInline
+                            preload="metadata"
                             style={{ objectFit: 'cover' }}
+                            playsinline="true"
+                            webkit-playsinline="true"
                         >
-                            <source src="img/homepage/tome-presentation-1.webm" type="video/webm" />
                             <source src="img/homepage/tome-presentation-1.mp4" type="video/mp4" />
+                            <source src="img/homepage/tome-presentation-1.webm" type="video/webm" />
                         </video>
                     </div>
                 </div>
