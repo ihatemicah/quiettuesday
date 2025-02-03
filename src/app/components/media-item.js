@@ -6,7 +6,6 @@ const MediaItem = ({ item }) => {
     if (item.type === "video") {
         return (
             <video 
-                src={item.src}
                 width={item.width}
                 height={item.height}
                 autoPlay
@@ -15,7 +14,10 @@ const MediaItem = ({ item }) => {
                 playsInline
                 style={{ objectFit: 'cover' }}
                 className={styles.mediaItem}
-            />
+            >
+                <source src={item.src} type="video/webm" />
+                <source src={item.mp4Src} type="video/mp4" />
+            </video>
         );
     }
 

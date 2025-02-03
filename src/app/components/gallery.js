@@ -14,7 +14,8 @@ const galleryItems = {
     twoColumn: [
         [
             { 
-                src: "img/homepage/sundae_1.webm", 
+                src: "img/homepage/sundae_1.webm",
+                mp4Src: "img/homepage/sundae_1.mp4",
                 alt: "Animation 1", 
                 width: 450, 
                 height: 282,
@@ -30,7 +31,8 @@ const galleryItems = {
         ],
         [
             { 
-                src: "img/homepage/evde.webm", 
+                src: "img/homepage/evde.webm",
+                mp4Src: "img/homepage/evde.mp4",
                 alt: "Animation 2", 
                 width: 450, 
                 height: 282,
@@ -65,7 +67,8 @@ const galleryItems = {
     oneColumn: [
         [
             { 
-                src: "img/homepage/tome-presentation-1.webm", 
+                src: "img/homepage/tome-presentation-1.webm",
+                mp4Src: "img/homepage/tome-presentation-1.mp4",
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -74,7 +77,8 @@ const galleryItems = {
         ],
         [
             { 
-                src: "img/homepage/tyb.webm", 
+                src: "img/homepage/tyb.webm",
+                mp4Src: "img/homepage/tyb.mp4",
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -83,7 +87,8 @@ const galleryItems = {
         ],
         [
             { 
-                src: "img/homepage/contra.webm", 
+                src: "img/homepage/contra.webm",
+                mp4Src: "img/homepage/contra.mp4",
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -92,7 +97,8 @@ const galleryItems = {
         ],
         [
             { 
-                src: "img/homepage/doormat.webm", 
+                src: "img/homepage/doormat.webm",
+                mp4Src: "img/homepage/doormat.mp4",
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
