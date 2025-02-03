@@ -8,22 +8,20 @@ import { useEffect, useRef, useState } from 'react';
 import Lenis from '@studio-freight/lenis';
 import gsap from 'gsap';
 
-const getBasePath = () => {
-    return process.env.NODE_ENV === 'production' ? '/ihatemicah' : '';
-};
+
 
 const galleryItems = {
     twoColumn: [
         [
             { 
-                src: `${getBasePath()}/img/homepage/sundae_1.webm`, 
+                src: "/img/homepage/sundae_1.webm", 
                 alt: "Animation 1", 
                 width: 450, 
                 height: 282,
                 type: "video"
             },
             { 
-                src: `${getBasePath()}/img/homepage/sundae_2.jpg`, 
+                src: "/img/homepage/sundae_2.jpg", 
                 alt: "Animation 1", 
                 width: 450, 
                 height: 282,
@@ -32,14 +30,14 @@ const galleryItems = {
         ],
         [
             { 
-                src: `${getBasePath()}/img/homepage/evde.webm`, 
+                src: "/img/homepage/evde.webm", 
                 alt: "Animation 2", 
                 width: 450, 
                 height: 282,
                 type: "video"
             },
             { 
-                src: `${getBasePath()}/img/homepage/evde_image.png`, 
+                src: "/img/homepage/evde_image.png", 
                 alt: "Animation 1", 
                 width: 450, 
                 height: 282,
@@ -48,14 +46,14 @@ const galleryItems = {
         ],
         [
             { 
-                src: `${getBasePath()}/img/homepage/handheld-1.png`, 
+                src: "/img/homepage/handheld-1.png", 
                 alt: "Animation 2", 
                 width: 450, 
                 height: 282,
                 type: "image"
             },
             { 
-                src: `${getBasePath()}/img/homepage/handheld-2.png`, 
+                src: "/img/homepage/handheld-2.png", 
                 alt: "Animation 1", 
                 width: 450, 
                 height: 282,
@@ -67,7 +65,7 @@ const galleryItems = {
     oneColumn: [
         [
             { 
-                src: `${getBasePath()}/img/homepage/tome-presentation-1.webm`, 
+                src: "/img/homepage/tome-presentation-1.webm", 
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -76,7 +74,7 @@ const galleryItems = {
         ],
         [
             { 
-                src: `${getBasePath()}/img/homepage/tyb.webm`, 
+                src: "/img/homepage/tyb.webm", 
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -85,7 +83,7 @@ const galleryItems = {
         ],
         [
             { 
-                src: `${getBasePath()}/img/homepage/contra.webm`, 
+                src: "/img/homepage/contra.webm", 
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -94,7 +92,7 @@ const galleryItems = {
         ],
         [
             { 
-                src: `${getBasePath()}/img/homepage/doormat.webm`, 
+                src: "/img/homepage/doormat.webm", 
                 alt: "Hero Animation", 
                 width: 921, 
                 height: 518,
@@ -108,21 +106,21 @@ const galleryItems = {
     multiColumn: [
         [
             { 
-                src: `${getBasePath()}/img/homepage/image-04@2x.png`, 
+                src: "/img/homepage/image-04@2x.png", 
                 alt: "Image 4", 
                 width: 666, 
                 height: 692,
                 type: "image"
             },
             { 
-                src: `${getBasePath()}/img/homepage/image-05@2x.png`, 
+                src: "/img/homepage/image-05@2x.png", 
                 alt: "Image 5", 
                 width: 430, 
                 height: 692,
                 type: "image"
             },
             { 
-                src: `${getBasePath()}/img/homepage/image-06@2x.png`, 
+                src: "/img/homepage/image-06@2x.png", 
                 alt: "Image 5", 
                 width: 430, 
                 height: 692,
